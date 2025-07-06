@@ -1,0 +1,57 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; 
+   background-image: url(k1.webp);
+     
+}
+
+/* Header Styles */
+.header {
+   background-image: url(k1.webp);
+    color: rgb(246, 242, 242);
+    text-align: left;
+    padding: 20px ;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+/* Content Styles */
+.contant {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 10px 20px;
+    background-color: #eeebed; 
+    background-image: url(k1.webp);
+}
+
+.contant a {
+    text-decoration: none;
+    color: #f3f0f0;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.contant a:hover {
+    background-color: #333;
+    color: white;
+}
+
+/* Paragraph Styles */
+.para {
+    text-align: left;
+    padding: 20px;
+    font-size: large;
+    line-height: 1.6;
+    color: white;  
+     
+}

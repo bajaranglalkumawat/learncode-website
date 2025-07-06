@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Gallery</title>
+    <style>
+        /* General reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .video-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            width: 100%;
+        }
+
+        .video-item {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .video-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        iframe {
+            width: 100%;
+            height: 200px;
+            border: none;
+        }
+
+        h5 {
+            margin: 15px;
+            font-size: 1.2em;
+            text-align: center;
+            color: #444;
+        }
+
+        @media (max-width: 600px) {
+            iframe {
+                height: 150px;
+            }
+
+            h5 {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Video Section -->
+    <div class="video-container">
+        <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/sPM2WiwA1us" title="Video 1" allowfullscreen></iframe>
+            <h5>GSoC 2025 Roadmap</h5>
+        </div>
+
+        <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/UmnCZ7-9yDY" title="Video 2" allowfullscreen></iframe>
+            <h5>Java Complete Course</h5>
+        </div>
+
+        <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/e7sAf4SbS_g" title="Video 3" allowfullscreen></iframe>
+            <h5>C++ Complete Course</h5>
+        </div>
+
+        <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/k2DSi1zGEc8" title="Video 4" allowfullscreen></iframe>
+            <h5>HTML Complete Course</h5>
+        </div>
+
+        <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/rklidcZ-aLU" title="Video 5" allowfullscreen></iframe>
+            <h5>HTML Course with Project</h5>
+        </div>
+
+        <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/UrsmFxEIp5k" title="Video 6" allowfullscreen></iframe>
+            <h5>Python Complete Course with Project</h5>
+        </div>
+
+        <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/VlPiVmYuoqw" title="Video 7" allowfullscreen></iframe>
+            <h5>JavaScript Complete Course with Project</h5>
+        </div>
+
+        <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/GwIo3gDZCVQ" title="Video 8" allowfullscreen></iframe>
+            <h5>Machine Learning Crash Course</h5>
+        </div>
+
+        <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/TlB_eWDSMt4" title="Video 9" allowfullscreen></iframe>
+            <h5>Node.js Crash Course</h5>
+        </div>
+
+        <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/8hly31xKli0" title="Video 10" allowfullscreen></iframe>
+            <h5>Data Structures Crash Course</h5>
+        </div>
+
+        <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/w7ejDZ8SWv8" title="Video 11" allowfullscreen></iframe>
+            <h5>React.js Course</h5>
+        </div>
+
+        <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/HXV3zeQKqGY" title="Video 12" allowfullscreen></iframe>
+            <h5>SQL Course</h5>
+        </div>
+    </div>
+
+</body>
+</html>

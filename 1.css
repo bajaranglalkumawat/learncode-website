@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .header {
+    width: 100%;
+    height: 100vh;
+   background-image: url(k1.webp);
+    position: absolute;
+  }
+  
+  .header h2 {
+    color: white;
+    
+  }
+  
+  nav {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 30; 
+      border-radius: 200%;
+  }
+  
+  ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(242, 234, 234);
+    font-weight: bolder;
+    padding: 5px;
+    transition: background-color 0.1s, color 0.1s;
+  }
+  
+  a:hover {
+    background-color: rgb(181, 6, 6);
+    border-radius: 2px;
+    color: white;
+  }
+  
+  .body {
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+  
+  h1 {
+    font-size: 30px;
+    color: blanchedalmond;
+    margin-bottom: 20px;
+  }
+  .demo1 {
+    color: orange;
+    margin-bottom: 30px; 
+    
+  }
+  
+  .body h2 {
+    color: rgb(231, 230, 228); 
+    
+  }
+  
+  .body h4 {
+    color: floralwhite;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+  
+  .demo2 {
+    line-height: 40px;
+    color: blanchedalmond;
+    font-size: 20px; 
+     
+  } 
+  
+  .a {
+    background: lightsalmon;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: whitesmoke;
+    display: inline-block;
+    margin: 30px 8px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  
+  .a:hover {
+    background-color: whitesmoke;
+    color: rgb(234, 229, 229);
+  }
+  
+  .img {
+    position:absolute;
+    bottom: 52%;
+    left: 75%;
+    width: 30%; 
+      padding-top: 20px; 
+      margin-top: 20px;  
+        border-radius: 20%;
+  }
+  
+  .icon {
+    width: 50%;
+    height: auto; /* Maintain aspect ratio */
+    clip-path: circle(210px); /* Crops 20% from the bottom */
+    position: relative;
+    top: 80px; /* Moves the image 50px down */
+  }
+  
+  .smy {
+  
+    color: aliceblue;
+    padding: 20px;
+    margin: 20px; 
+      padding-left: 50px; 
+      margin-left: 50px;
+    overflow: hidden;
+    border-radius: 70px; /* Adds rounded corners */ 
+     
+  }
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    width: 90%;
+   
+  }
+  
+  .image-item img {
+    width: 80px;  /* Set the size of each image */
+    height: 80px;  /* Set the size of each image */
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+  
+  .image-item img:hover {
+    transform: scale(1.1);  /* Zoom effect on hover */
+  }
+  
+  .image-item h3 {
+    margin-top: 10px;  /* Space between the image and the name */
+    color: white;  /* Set the text color */
+    font-size: 16px;  /* Adjust font size */ 
+    position:absolute;
+  }
+  
+  .skill{ 
+      color: orange; 
+       left: 20px; 
+         padding-top: 35px;
+         margin-top: 35px;
+  } 
+  body {
+    background-color:black;
+    margin: 0; /* Remove default margin */
+    height: 100%; /* Ensure the body covers the full height of the viewport */
+  } 
+  .logo {
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    margin-top: 70px; 
+    
+  }
+  
+  .logo .icon {
+    width: 25px;
+    height: 25px;
+   
+    border-radius: 70%;
+    padding: 5px;
+   
+   
+    padding-top: 0px; 
+    margin-top: 0px; 
+       
+  }
+
+  .login-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+.login-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+
+.login-form h2 {
+    margin-bottom: 25px;
+    color: #333;
+    font-size: 24px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login-form input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff7e5f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #feb47b;
+}
+@media (max-width: 768px) {
+  nav ul {
+      flex-direction: column;
+      align-items: center;
+  }
+}
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #000000;
+}
+
+.header h2 {
+  color: var(--primary-color);
+}
